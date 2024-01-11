@@ -162,3 +162,11 @@ lerna link
 ## 依赖包的下载安装直接用pnpm管理
 ### 如果要将包发布到npm中，使用 lerna publish
 #### 私有项目不发布，这种情况下在项目中的package.json文件中添加"private": true
+
+### 提交代码并将其上传到自己的github仓库
+```
+git add .
+git commmit -m 'xxxx'
+git remote add origin https://github.com/<your-username>/<your-repository-name>.git
+git push origin master -u
+```
